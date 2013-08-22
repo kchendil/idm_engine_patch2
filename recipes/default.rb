@@ -42,7 +42,7 @@ end
 
 execute "Unzip and Install the patch" do
  user "root" 
- command "rpm -Uvh /tmp/*.rpm"
+ command "rpm -Ufvh /tmp/*.rpm"
   action :run
 end
 
